@@ -48,7 +48,7 @@ Custom Scripts from the Community:
 * OrbRemoteServer
 * OWLTR 3.01
 * Pirates
-* Player Government System 2.23 (with Custom Walls for player raids (Major can build wher he wants inside city with custom tool for · placement), and City Barracks)
+* Player Government System 2.23 (with Custom Walls for player raids (Mayor can build wher he wants inside city with custom tool for · placement), and City Barracks)
 * Race Class System
 * SleepableBeds
 * Stargate System v3
