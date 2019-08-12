@@ -17,9 +17,9 @@ Client: https://drive.google.com/open?id=1_28gzP85gtPmQe2jWewjsxYGd0Mmk_xQ
 
 Description of the server:
 ---------------------------------------
-· Custom Map of  Iberian Peninsula (initialy 100% from me, and when I get tired of doing everything i start to use community buildings)
-· Custom Modify of the Client HUID (by me too)
-· Community item images inside client
+* Custom Map of  Iberian Peninsula (initialy 100% from me, and when I get tired of doing everything i start to use community buildings)
+* Custom Modify of the Client HUID (by me too)
+* Community item images inside client
 
 
 
