@@ -1,0 +1,96 @@
+Apiculture 1.2
+ (aka Beekeeping)
+
+History
+ 1.2-
+ Fix: No longer able to click Harvest Wax button when there is no wax
+ Fix: Font coloring issues
+ Add: "Large Wax Pot" - melt down pure beeswax to be used for dipping
+ Add: Added Large Wax Pot to beekeeper SB info
+ Tweak: Some verbage changes
+
+ 1.1 - 
+ Fix : spelling errors (doh!)
+ Add : "Hive Tool" - needed to harvest resources (can be disabled)
+ Add : "Small Wax Pot" - used to "render" Raw Beeswax into Beeswax
+ Add : Failed wax rendering will produce "slumgum" waste (added for authenticity...can be disabled)
+ Tweak : Wax now produced at lower rate then honey (can be disabled)
+ Tweak : Hive now produces "Raw Beeswax" (can be disabled)
+
+ 1.0 - 
+ Initial release
+
+Summary
+ Players can tend to a somewhat realistic beehive and harvest excess honey and wax. Like the plant system, players use potions to care for the hive and must provide flowers and water. Raw wax must be rendered to be used.
+
+Description
+ Don't laugh. I was inspired by the Apiculture script by Crystal (translated by Alari) and took it a bit too far. This is my interpretation of a beehive and is heavily based on the plant system.
+
+ Apiculture is the science (and some say art) of raising honey bees, also know as beekeeping. Bees live together in groups called colonies and make their homes in beehives. Tending a hive is not as easy as it may sound, although it can be a very rewarding experience. To start on the path of the apiculturist, all one needs is a beehive deed and an area with plenty of flowers and water.
+
+ There are 3 distinct stages in a beehive's development:
+
+ Colonizing - the hive sends out scouts to survey the area and find sources of flowers and water.
+ Brooding - egg laying begins in full force as the hive gets ready to begin full scale production.
+ Producing - after a hive reaches maturity, it begins producing excess amounts of honey and wax.
+
+ The health of a hive is measured in two ways: over all health and bee population.
+
+ Over all health offers an indication of the average bee's well being:
+
+ Thriving - the bees are extremely healthy. A thriving colony produces honey and wax at an increased rate.
+ Healthy - the bees are healthy and producing excess honey and wax.
+ Sickly - the bees are sickly and no longer producing excess resources.
+ Dying - if something isn't done quickly, bee population will begin to drop.
+
+ Bee population is a rough estimate of the number of bees in a hive. More bees does not always mean better for a large hive is more difficult to maintain. More water and flowers are needed in the area to support a large hive (the range a hive can check for flowers and water is increased as the hive gets larger). If the conditions get bad enough, a colony of bees will abscond, leaving an empty hive behind.
+
+ Like any living thing, bees are susceptible to attacks from outside forces. Be it parasites or disease, the apiculturist has a plethora of tools at their disposal.
+
+ Greater Cure potions can be used to combat diseases such as foulbrood and dysentery. These potions can also be used to neutralize excess poison.
+
+ Greater Poison potions can be used to combat insects (such as the wax moth) or parasites (such as the bee louse) that infest a hive. Care must be used! Too many poison potions can harm the bees.
+
+ Greater Strength potions can be used to build up a hive's immunity to infestation and disease.
+
+ Greater Heal potions can be used to help heal the bees.
+
+ Greater Agility potions give the bees extra energy allowing them to work harder. This will boost honey and wax output as well as increase the range the bees can search for flowers and water.
+
+ Managing and caring for the hive is done using the Apiculture gump. Almost every aspect of the hive can be monitored from here. Down the left side of the gump are the status icons:
+
+ Production - this button brings up the production gump where the beekeeper can harvest the goods the hive has to offer.
+
+ Infestation - a red or yellow hyphen here means the hive is infested by parasites or other insects. Use poisons to kill the pests.
+
+ Disease - a red or yellow hyphen here means the hive is currently diseased. Using cure potions will help the bees fight off the sickness.
+
+ Water - this icon displays the availability of water in the area. Be warned, water breeds disease carrying bacteria, so too much water can make a hive more susceptible to disease.
+
+ Flowers - this icon provides an indication of the amount of flowers available to the hive. Bees use flowers and their by-products for almost every function of the hive including building and food. Too many flowers in the area, however, can bring the bees into contact with more parasites and insects.
+
+ Notes: a single beehive can support up to 100 thousand bees. A healthy hive can last indefinitely, however, an older hive is more susceptible to infestation and disease.
+
+ A hive's growth check is performed once a day during a world save. The upper right hand corner of the Apiculture gump displays the results of the last growth check:
+
+! Not healthy
+! Low resources
+- Population decrease
++ Population growth
++ Stage increase/Resource production
+
+ Most of the above information is available via an in-game help gump.
+
+ 3 Honey + 1 bottle = 1 Jar of Honey
+
+ToDo
+ -Should be slight chance of damage (from bees) during harvest...based on camping?
+ -Wax Crafting system to use all that wax
+
+Installation
+ Simply drop this in your "Scripts" folder. I would suggest creating a "Custom" folder under your "Scripts" folder to house all your custom and new scripts. This makes things alot easier when upgrading, believe me!
+
+Usage
+ Simply add "apiBeehiveDeed" to a vendor or as loot so players can construct the hives. Make sure there is some water (items with "water" in the title) and flowers (items with "flower", "snowdrop", or "poppie" in the title) around the hive for the bees to make use of. These can be statics or actual items. 
+
+ Add "HiveTool" and "apiSmallWaxPot" to a vendor or as loot. Beehives will produce "Raw Beeswax" which can be added to a Small Wax Pot (via the gump). The Pot can hold up to 255 wax (easily configured in the script). Next, the player must stand next to a heat source and click on "Render Wax" in the gump. There is a chance to fail where not all the wax will be rendered (up to 1/5th the amount). Any failed wax will produce "slumgum" waste (this can be disabled).

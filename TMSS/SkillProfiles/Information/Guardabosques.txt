@@ -1,0 +1,78 @@
+This is the output for Guardabosques on 09/28/2015 06:11:04
+
+
+General: 
+	-Manual: True
+	-Stat Force: True
+	-Stats Enabled: True
+	-Stat Sum: 200
+	-Strength: 100
+	-Dexterity: 100
+	-Intelligence: 100
+	-Skill Force: True
+	-Name: Guardabosques
+	-Num Allowed Skills: 7
+	-Skill Sum: 800
+	-Skill Sum: True
+	-Skill Sum: True
+
+
+Enabled Skills & Skill Values: 
+Index: 0 Name: Alchemy Is: False And its Max Value is: 0
+Index: 1 Name: Anatomy Is: False And its Max Value is: 0
+Index: 2 Name: Animal Lore Is: True And its Max Value is: 0
+Index: 3 Name: Item Identification Is: True And its Max Value is: 0
+Index: 4 Name: Arms Lore Is: False And its Max Value is: 0
+Index: 5 Name: Parrying Is: False And its Max Value is: 0
+Index: 6 Name: Begging Is: False And its Max Value is: 0
+Index: 7 Name: Blacksmithy Is: False And its Max Value is: 0
+Index: 8 Name: Bowcraft/Fletching Is: False And its Max Value is: 0
+Index: 9 Name: Peacemaking Is: False And its Max Value is: 0
+Index: 10 Name: Camping Is: True And its Max Value is: 0
+Index: 11 Name: Carpentry Is: False And its Max Value is: 0
+Index: 12 Name: Cartography Is: False And its Max Value is: 0
+Index: 13 Name: Cooking Is: False And its Max Value is: 0
+Index: 14 Name: Detecting Hidden Is: True And its Max Value is: 0
+Index: 15 Name: Discordance Is: False And its Max Value is: 0
+Index: 16 Name: Evaluating Intelligence Is: False And its Max Value is: 0
+Index: 17 Name: Healing Is: True And its Max Value is: 0
+Index: 18 Name: Fishing Is: True And its Max Value is: 0
+Index: 19 Name: Forensic Evaluation Is: True And its Max Value is: 0
+Index: 20 Name: Herding Is: True And its Max Value is: 0
+Index: 21 Name: Hiding Is: True And its Max Value is: 0
+Index: 22 Name: Provocation Is: False And its Max Value is: 0
+Index: 23 Name: Inscription Is: False And its Max Value is: 0
+Index: 24 Name: Lockpicking Is: False And its Max Value is: 0
+Index: 25 Name: Magery Is: False And its Max Value is: 0
+Index: 26 Name: Resisting Spells Is: False And its Max Value is: 0
+Index: 27 Name: Tactics Is: True And its Max Value is: 0
+Index: 28 Name: Snooping Is: False And its Max Value is: 0
+Index: 29 Name: Musicianship Is: False And its Max Value is: 0
+Index: 30 Name: Poisoning Is: False And its Max Value is: 0
+Index: 31 Name: Archery Is: True And its Max Value is: 0
+Index: 32 Name: Spirit Speak Is: False And its Max Value is: 0
+Index: 33 Name: Stealing Is: False And its Max Value is: 0
+Index: 34 Name: Tailoring Is: False And its Max Value is: 0
+Index: 35 Name: Animal Taming Is: True And its Max Value is: 0
+Index: 36 Name: Taste Identification Is: False And its Max Value is: 0
+Index: 37 Name: Tinkering Is: False And its Max Value is: 0
+Index: 38 Name: Tracking Is: True And its Max Value is: 0
+Index: 39 Name: Veterinary Is: True And its Max Value is: 0
+Index: 40 Name: Swordsmanship Is: False And its Max Value is: 0
+Index: 41 Name: Mace Fighting Is: False And its Max Value is: 0
+Index: 42 Name: Fencing Is: False And its Max Value is: 0
+Index: 43 Name: Wrestling Is: True And its Max Value is: 0
+Index: 44 Name: Lumberjacking Is: True And its Max Value is: 0
+Index: 45 Name: Mining Is: False And its Max Value is: 0
+Index: 46 Name: Meditation Is: False And its Max Value is: 0
+Index: 47 Name: Stealth Is: True And its Max Value is: 0
+Index: 48 Name: Remove Trap Is: True And its Max Value is: 0
+Index: 49 Name: Necromancy Is: False And its Max Value is: 0
+Index: 50 Name: Focus Is: True And its Max Value is: 0
+Index: 51 Name: Chivalry Is: False And its Max Value is: 0
+Index: 52 Name: Bushido Is: False And its Max Value is: 0
+Index: 53 Name: Ninjitsu Is: False And its Max Value is: 0
+Index: 54 Name: Spellweaving Is: False And its Max Value is: 0
+Index: 55 Name: Mysticism Is: False And its Max Value is: 0
+Index: 56 Name: Imbuing Is: False And its Max Value is: 0
+Index: 57 Name: Throwing Is: True And its Max Value is: 0

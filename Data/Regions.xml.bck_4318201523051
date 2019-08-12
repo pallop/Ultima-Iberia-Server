@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServerRegions>
+  <Facet name="Felucca">
+    <region type="Default" priority="1" name="Midgar">
+      <rune name="midgar" />
+      <region type="TownRegion" priority="2" name="Trelleborg">
+        <rune name="Trelleborg" />
+        <smartNoHousing active="true" />
+        <region type="NoHousingRegion" priority="3" name="Bosques">
+          <rune name="Bosques" />
+          <smartNoHousing active="true" />
+        </region>
+        <region type="NoHousingRegion" priority="3" name="Minas">
+          <rune name="Minas" />
+          <smartNoHousing active="true" />
+        </region>
+      </region>
+      <region type="TownRegion" priority="2" name="Jelling">
+        <rune name="Jelling" />
+        <region type="NoHousingRegion" priority="3" name="Bosques">
+          <rune name="bosques" />
+          <smartNoHousing active="true" />
+        </region>
+        <region type="TownRegion" priority="3" name="Rituales">
+          <rune name="Rituales" />
+          <smartNoHousing active="true" />
+        </region>
+      </region>
+    </region>
+  </Facet>
+  <Facet name="Trammel" />
+  <Facet name="Ilshenar" />
+  <Facet name="Malas" />
+  <Facet name="Tokuno" />
+  <Facet name="TerMur" />
+</ServerRegions>

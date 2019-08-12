@@ -1,0 +1,222 @@
+Daat99 Custom OWLTR (Ores Wood Leather Tokens Recipes) for Runuo 2.2:
+Made by daat99.
+
+Changelog:
+V3.01.00 15/10/2012:
+	Fixed: a bug that didn't delete tokens when they were added to the master storage on double click (thanks mvtowns).
+	Fixed: a crash when harvesting items that register as CraftResource.None (thanks mvtowns).
+V3.00.00:
+	Upgraded to support distro OWLTR v2.2
+	
+v2.93
+Fixed: A typo in the harvest system wouldn't allow people to lumberjack oak logs, ThanX RipRizzle for reporting the issue.
+
+v2.92
+Fixed: A crash when players have too low skills and ask for bods. This is how RunUO coded it and instead of recoding the calculation methods for bods I simply send a message to the player that he lost the bod due to his low skill level, if players want to avoid it than they should raise their skills (this problem can be seen int the distro when players with 1 skill ask a tailor\smith for a bod and doesn't see an accept gump even tho they were told by the npc that they can get 1).  ThanX Joeku for reporting this issue.
+Fixed: Recall and GateTravel scrolls that was stored inside the scribers tome can be used in runebooks once again (if you got old scrolls simply place them in the tome again and they'll revert). ThanX AdminVile for reporting this issue.
+
+v2.91
+Fixed: A problem when installing OWLTR v2.9 on a new shard (ThanX to AdminVile for reporting it and to arul for finding the fix) ;)
+
+v2.9
+Fixed: The ser\deser crash problems are fixed now thanx to: toddjumper, Arvoreen, IndigoParadox, XxSP1DERxX, MatrixMan, Jebbit, Sorious and TMSTKSBK.
+Added: Made the missingrecipes command not to show if the crafting recipes is disabled (ThanX to Joeku for suggesting it).
+Added: When a player select a resource that need more skill than he have it'll send him a message tellling him how much skills he need (ThanX Joeku for his help). 
+Fixed: A typo in the token vendor stone (ThanX Tormoil)
+Fixed: A typo in the mule have it's max hit points at -10 instead of 95-105 (ThanX Arvoreen for letting me know).
+Fixed: Raelis fixed a crash in his Vendor Stone, the Token Vendore Stone is updated acordingly (ThanX Raelis).
+Fixed: A typo in the personal statue (ThanX Turmoil for reporting it).
+Added: Some "to be sure" code that I think isn't needed but just in case.
+
+v2.8 26/10/2005:
+Added: Fixed a crash on ser\deser when a player got deleted (ThanX toddjumper for giving me the information I needed).
+
+v2.7 18/10/2005:
+Fixed: A problem with the claim bods section (ThanX Bham for reporting it).
+Fixed: Couple of typos in the bulk reward table that resulted in giving different amounts of gold than it was supposed to (ThanX STalKer-X).
+Fixed: The [daat99holder gump will now reopen when you select resources (ThanX TesterSam).
+Fixed: The [daat99holder gump will now save the add\remove status (ThanX TesterSam).
+Modified: The [missingrecipes gump will now say the total amount of recipes the player need in the title section, on all the pages (ThanX TesterSam).
+
+v2.6 25/09/2005:
+Fixed: A major crash bug due to some left over code in the crafting\resource recipes and the old holder files (ThanX TesterSam for detailed report that informed me about the situation).
+Fixed: A possible way for players to change the OWLTR settings (ThanX Alexander for reporting the possibility).
+
+v2.5 22/09/2005:
+Rewrite: Rewrote some major code to support the new hash tables instead of the daat99holders.
+Added: [daat99holder command that will let you target a player in order to access his "daat99holder" since it won't be available in his bankbox for double clicking.
+Upgrade: Removed all the old and obsolete daat99holders and replaced them with a static hashtable.
+Fixed: The runic tinker tools will now be named "Runic Tinker's Tools" and will show the resource as "Resource: Platinum" instead of be named "Tinker's Tools" and "Platinum" (ThanX KatNyte for reporting it).
+
+v2.4 10/09/2005:
+Updated: The TokenVendorStone to the new vendor stone that was released at 09-05-2005 by raelis (great job raelis).
+Modified: A bit the token calculation formula, it should give a bit less tokens now.
+Fixed: A long due bug that sent boards to the internal map if a player crafted them using boards (ThanX ArteGordon for his solution).
+Removed: Some debug code that I forgot inside.
+Added: Finished bods can be claimed using the gump when you stand near the apropriate vendor (compatibility with carpentry\fletcher bods later on).
+Modified: Armor of crafting will accept carpentry and lumberjacking as a skill to support carpentry\lumberjacking bods.
+Modified: Combined all the distro modified files into 1 folder instead of 3 (the runuo zip file limit is over so there's no reason to have it seperated).
+Fixed: A problem with dedication recipes (for shards that give them too much) that froze the shards (ThanX kiki for reporting it).
+Fixed: Sharpening blade will delete itself if the uses becomes less then 1.
+Added: A caprentry option for the armor of crafting to support carpentry bod rewards.
+Added: A hidden constructable to allow scriptors to send min\max token amount arguments to the script.
+Fixed: A typo in Lady Luck exchange gump (ThanX Turmoil for reporting it).
+Modified: Seperated the cotton from the wool and the threads from the yarn in the tailors key.
+Fixed: A problem with the bod book filter gump that had the wrong values for the custom leathers making them unusables as a filters (ThanX Sunshine for reporting it).
+Added: Alchemist Kit that store alchemist potions (60k), Empty bottle\kegs (no limit) and it'll will allow the player to extract potion kegs or potion bottles.
+Fixed: Lady luck title to reflect the token exchange option.
+Removed: Removed BaseHarvestTool.cs from the modified system, please restore your original backup, they are identical.
+
+v2.3 07/08/2005:
+Added: Bards Stand in the custom Craftables category, it's a tool that will enable bards to combine regular\exceptional and 1 slayer types of musical instruments (ThanX Sunshine for the idea and TMSTKSBK for deco help).
+Added: An option to disable\enable the lottery or the token exchange from the OWLTR gump and in lady luck [props.
+Added: An exchange tokens\gold context menu to lady luck. You can set the TokenCostInGold via [props on any lady luck and in the OWLTR control center.
+Fixed: A typo in the wood workers key that set the limit to 50k instead of 60k (ThanX CynsPixie for reporting it).
+
+v2.2 02/08/2005:
+Fixed: A bug with the gargoyles knife that let the players carve mobs that aren't supposed to be carved and giving them bugged leather (ThanX TesterSam for reporting it).
+Fixed: An exploit with LadyLuck that made players to be able to buy a lot of tickets and recieve tokens for it.
+Fixed: A typo in the colored loom that make a south addon become an east deed (ThanX Kiki for reporting it).
+Fixed: An exploit that made people get tokens indefinatly if they crafted items that m_UseAllRes and the token for crafting is enabled (ThanX Thundar for reporting it).
+Added: PersonalStatueDeed, when dclicked will add a statue to the player backpack. There's a 4% that the master of the arts will carry the deed in his backpack.
+Fixed: A bug with spellcasterkeys that accepted full potion kegs, it'll only accept empty kegs now (ThanX beldr).
+Modified: Changed the daat99holder name in game.
+
+v2.1 10/07/2005:
+Added: Scribers Tome (custom craftable), players can store their scrolls in a scribers tome now, it's just a holder, they can't cast using scrolls that are inside it.
+Fixed: Color loom will save the color when you re-deed it, ThanX francecio for reporting it and ThanX Greystar for his great work on this fix, saved me tons of time ;)
+Fixed: Ore elementals that was spawned using gargoyles tools (and master of the arts) won't have resource recipes if the recipe system is disabled (ThanX Sotho Tal Ker for reporting it)
+Rewrited: Rewrote the runic house from scratch and switch to hash table (cut the size down to 1/5 then before), the switch will be transparent to the players but they'll see a new gump with the tinker tools in it.
+
+v2.0 19/06/2005:
+Added: Items can be added to the resource keys and the tool\runic houses from the bank now (ThanX Joeku for requesting it).
+Added: The daat99 holder will have resources buttons in it now.
+
+v1.9 14/06/2005:
+Added: An option to enable resource prices which means that if player will sell a high level resource item he'll get more then low level resource item.
+Changed: Players will need to carve leather elementals to get scales now instead of just finding it in the backpack.
+Fixed: A problem with colored loom not working like a loom (thanx ChaosSally for reporting it).
+Modified: Colored loom will create bolt of cloth after 3 balls of yarn while normal loom will need 5.
+Fixed: A problem with colored scissors coming out without color as a bod reward (thanx RANCID77).
+
+v1.8 03/06/2005:
+Modified: Made the harvesting system more compatible with other systems (jewlery crafting for example), thanx awakenlands for reporting the issues.
+Modified: The dedication recipes will be acording to the skill used when you got it (if this skill doesn't have recipes then you'll learn random recipe, example for skills withour recipes: cartography), thanx kiki for requesting that change.
+Fixed: A bug with deftinkering that needed normal granite to craft mobile forge instead of platinum granite (thanx Khephren).
+Fixed: A bug with gargoyle spawned elementals karma (thanx ChaosSally).
+Fixed: A problem with commodity deeds not showing right for the custom resources (thanx pepperfs for reporting it).
+Fixed: A possible warning in spellcaster keys (ThanX Xanthos for reporting them).
+
+v1.7 21/05/2005:
+Fixed: A problem with tokens from OWLTR not working as standalone.
+
+v1.6 21/05/2005:
+Fixed: A major bug with recipes that could cause a crash if you removed an item from your shard and players had its recipe (thanx JJ for reporting it).
+Fixed: A major bug with recipes lists containing multiple recipes for the same item.
+Added: [MissingRecipes command that'll tell the player what crafting recipes he doesn't have.
+Fixed: A problem with recipes names not showing right if it contains more then 2 words.
+Fixed: A problem with tool house didn't accept halberd and bardiche to the lumberjacking category.
+Modified: If crafting recipes is disabled the recipes won't be in loot.
+
+v1.5 13/05/2005:
+Added: Dedication recipes, when a player craft a lot he can be "inspired" to learn how to craft new item every 24 hours.
+Fixed: A problem with the [owltr gump not showing right in 2d clients (thanx for the following people for reporting it: pvtjoker, RANCID77, Kiki).
+Modified: Sharpening blade need to be in the players backpack to use now to avoid house accesslevel problem (thanx to: Freya, Memnoch).
+
+v1.4 11/05/2005:
+Fixed: A bug in Gargoyle pickaxe\axe let people spawn elementals they don't have the recipes for (ThanX Limpy).
+Fixed: A problem with the token reward for harvesting.
+
+v1.3 10/05/2005:
+Fixed: Resource recipes can be gained now from Master of the Arts along with the ps and from Ore Elementals that spawn with gargoyles.
+Fixed: Showed the wrong message when harvesting without the recipes needed (Thanks Wimpy).
+Added: Crafting recipes can be found in loot of mobs that use the PackReg method.
+
+v1.2 09/05/2005 HOTFIX:
+Fixed: A crash when someone with 0 blacksmithy or tailoring requested a bod using the bod gump (thanx francecio).
+Fixed: Sharpening blade went up to 70 for exceptional items, it'll go to 50 for normal items and 55 for exceptional (thanx Memnoch).
+
+v1.1 07/05/2005:
+Fixed: A problem with runic sewing kits and runic smith hammers given from bod rewards. (ThanX Freya)
+
+v1.0 06/05/2005:
+Fixed: A typo in the stone workers key (thanx Greystar for letting me know).
+Modified: Changed the vein size and amount of ores per vein.
+Fixed: A problem with the tool house doesn't accepting Sturdy Smith Hammer.
+Fixed: A problem with the tool house doesn't accepting sturdy sewing kit.
+Modified: Shrinked the code in tool house.
+Fixed: A problem with runic house messing up blaze runic sewing kit and blaze runic smith hammer again.
+Modified: Colored scissors will give twice the amount of leather when used on armor, same amount when used on everything else.
+Modified: Added uses to the colored scissors.
+Fixed: The gargoyles tools where spawning elementals using the vein instead of the random ores (thanx Vellendarl for reporting it).
+Fixed: A typo in Master of the Arts (thanx Joeku for reporting it).
+Fixed: A problem with ore elementals don't spawn tinker tools (thanx Vellendarl for reporting it).
+Modified: Ore elementals have more chances to drop runic tinker tools if the runic jewlery crafting is enabled and the shard is AOS+.
+Fixed: Gathered gold will drop like it should now.
+Fixed: Problems with bod reward calculation fomula.
+Added: Full recipe system, can be enabled\disabled via owltr control center. When enabled players will need to learn recipes to craft\harvest.
+Added: [OWLTR command to let players view the settings of the shard so they'll know what you have without asking tons of questions.
+Added: [OWLTRBoD command+gump to let players get bods directly from it, this will be used at a later date to avoid player mobile changes for adding more bods.
+Modified: Elementals spawn manually will hold 10 of the relavent resource and won't have runics anymore, When spawned using gargoyles tools they'll have runic and 50 (25 ores) resources relavent to the elemental.
+Fixed: The mule-forge was resetting to false when shrunked using FSATS, all mules will act like forge now (assuming it's enabled in the owltr)
+Fixed: Minor problems I can't remember.
+
+Description:
+Daat99 OWLTR Conrol Center: This will be spawned in 3 locations, brit bank (both tram and fel) and at 0x0x0 tokuno (feel free to remove the brit centers but don't delete the tokuno center!!!).
+The control center can be manually spawned with [add daat99owltr.
+When dclicked it'll show a gump with some detailes about the OWLTR pack. the admins will have on\off switches to enable or disable certain features and the normal players will be able only to read the explanation on it.
+5 custom ores, 11 custom woods and 7 custom leather all based on 120 skill cap.
+Full elementals tree that include all metals, wood and leather.
+Each of them hold the resource and when spawned by gargoyles tool a runic item with 5 charges as well.
+Master of The Arts npc is a bard\poison immuned mini champ npc. once he'll be killed he'll spawn 1 random crafting ps in the players backpack (it count pets attacks too and will give the ps to the pet owner), also he'll have 20% to add a random runic item (hammer\fletcher\sewing\tinker) with 10 charges to the players that got ps, a chance for gargoyles pickaxe\axe\knife and Lumberjacking\ProspectorsTool.
+Master of The Arts can be spawned using champion spawn platform in which case he'll hand 5 ps instead of 2.
+The resource keys will hold resources that related to each key (tailors key will hold leather...).
+The scribers tome will hold magery and necromancy scrolls.
+The bank hive act as a banker using verbal commands & as a bank bell using double click.
+The runic house will hold runic tools and combine them.
+The tool house will hold tools acording to category for example if you add hammer with 50 charges and saw with 50 charges you'll get hammer with 100 charges since they both use carpentry.
+The bards stand will hold up to 60k charges of musical instruments, it can store normal, exceptional and 1 slayer instruments and the player will be able to extract them and select what type of instruments they'll be (lap harp, lute, drums...).
+The key ring is used to craft the custom craftables, it intended to be a rare item that'll be given as a reward for events or sold for large amounts of gold\tokens... that was integrated in order to make the items rare and not too common.
+Repair deeds can be made by crafters.
+The reagents inside the Spellcasters key are used when casting spells.
+Champion spawn cleaner will delete all the corpses that does not belong to players every time a new white skull will be spawned. You can set it to on\off and to gather the gold and spawn it later if you wish in the settings file.
+The Mule is a pack mount that can be set to smelt ores like a forge. when it spawned with master of the arts and tamed first it'll spawn the leather in his pack. When spawned normaly it'll just smelt ores, no leather.
+Runic Tinker tools and Fletcher tools can be used to craft runic jewlery and bows.
+Token system that will get you tokens when you kill mobs and complete bods.
+Token Lottery system to gamble the players tokens away.
+ArmorOfCrafting: Full body armor that give crafting skill bonus for mining\blacksmith\tailoring, available via bod rewards.
+Charged Dye Tubs: Charged dye tubs that can dye leather armor, metal armor or metal weapons (different tubs), they have charges and the player can combine 2 tubs from the same type to 1 tub with more charges (dclick the first tub then click the tub you want to combine with, the second tub will be deleted), The tub dyes in the color it's hued with so if gm customize the hue it'll dye with that hue. Players can select hue by targeting the tub and select hue from the normal hue pickers, available via bod rewards.
+Masters Knife: A knife that'll return 20% more leather when used to carve monsters, available via bod rewards.
+Tailors Protector: weapon that'll have 33%-40% to deal 10-25 extra damage if the player have over 100 tailoring, available via bod rewards.
+Smithers Protector: weapon that'll have 33%-40% to deal 10-25 extra damage if the player have over 100 blacksmithy, available via bod rewards.
+Bag of Resources: a bag that'll hold ores logs and hides (won't hold ingots or boards) and make them weight 0. Based on ArteGordon's Bag of Holding script, available via bod rewards.
+Recipe Crafting: When enabled (via owltr control center) will require the players to learn recipes to craft items. The players will have "daat99 holder" in their bank box that contain list of items. Any items not in that list will be craftable to that player which means if you add something later on they'll be able to craft it, also when enabled they'll drop on mobs that use the PackReg and Packgold methods.
+Recipe Harvesting: When enabled (via owltr control center as part of the recipe crafting) will make players need to learn how to mine\lumber resources higher then iron\log, there's no recipe harvesting for leather at this time.
+Colored Scissors: When used to cut leather armor they'll give twice the amount of leather (they're normal scissors when used on anything else).
+Colored Loom: When used to create cloth it'll need only 3 balls of yarn instead of normal loom that need 5.
+Dedication recipe: When enabled the players will have 2 counters, 1 will count the amount of items they craft (cumulative) and the other will check the time. Every time the player craft something it add 1 to the items counter and check the time, if it's time and he have over 100 items crafted then he'll be "inspired" to learn how to craft something new. Each inspiration will deduct 100 items from the items counter and add 24 hours to the time counter.
+Sharpening Blade: That's a high end blacksmith bod reward that'll let players enhance weapons up to 50 damange increase (55 if it's exceptional weapon).
+Missing Recipes Command: When the Players will use the [MissingRecipes they'll get a gump that'll list all the recipes he still need to learn.
+Personal Statue + Deed: When a player will double click on a personal statue deed he'll get a statue in his backpack that is named after him and when the statue is double clicked it'll add sounds and make the player say some stuff.
+
+Pakcage include 102 files:
+
+Installation:
+1. Place all the files anywhere in **\runuo\scripts\custom\**
+2. Go over all the files in the modified directory and make sure you replace the original files with them (if you miss even 1 it won't compile and will get you tons of errors.
+3. Restart the shard and set the settings you want in the OWLTR control center ([add daat99owltr).
+4. Restart the server and let your players have fun :)
+
+Notes:
+1. In order for your players to get custom leather on monsters you need to add them to your monsters, check the leather elementals for the way to add leather.
+2. If you want the scales to be on monsters you need to add it too, check the distro scripts (drake, dragon...) for how to add it.
+3. There are 2 scales.cs files in runuo, you need to replace the 1 inside the blacksmith folder.
+4. If you have druidic reagents already then you need to delete your version and add the version that attached to this pack.
+
+That's all :)
+
+
+Hall of Helpers:
+RunUO: UOT, ArteGordon, Guadah, Ashenfall, Ashlars and his beloved Morrigan, beau, Raider, Liam, telekea, porker, A_Li_N, Roseanne, RANCID77, Tark, n0brain, Arthemis, jjarmis, ssalter, Raelis, Briseis, Rift, bzk90, RoninGT, Memnoch, feralfreak, DaZiL, joshw, Greystar, XxSP1DERxX, Joeku, Freya, francecio, pvtjoker, Kiki, Viago, pepperfs, ChaosSally, Khephren, awakenlands, ChaosSally, Sotho Tal Ker, Wilcard, Beldr, Thundar, TesterSam, CynsPixie, Sunshine, TMSTKSBK, artio, Turmoil, KatNyte, Jakob, STalKer-X, ASayre8, alexander, Bham, toddjumper, Arvoreen, IndigoParadox, MatrixMan, Jebbit, Sorious, AdminVile, arul.
+Allure of the Unknown: Kiara, Joe, Tark, Vellendarl, Arvoreen, arul, RipRizzle.
+Swordhaven: Wimpy, Limpy, JJ."# This is my README" 

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServerRegions>
+  <Facet name="Felucca">
+    <region type="Default" priority="1" name="Midgar">
+      <rune name="midgar" />
+      <region type="TownRegion" priority="2" name="Trelleborg">
+        <rune name="Trelleborg" />
+        <rect x="655" y="527" width="125" height="109" />
+        <go x="719" y="579" z="5" />
+        <logoutDelay active="false" />
+        <smartNoHousing active="true" />
+        </region>
+    </region>
+  </Facet>
+  <Facet name="Trammel" />
+  <Facet name="Ilshenar" />
+  <Facet name="Malas" />
+  <Facet name="Tokuno" />
+  <Facet name="TerMur" />
+</ServerRegions>

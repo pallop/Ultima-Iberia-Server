@@ -1,0 +1,80 @@
+First Open your LootPack.cs
+
+Find
+        public static readonly LootPackItem[] Gold = new[] { new LootPackItem(typeof(Gold), 1) };
+
+Under That add this
+
+        public static readonly LootPackItem[] RandomFoodRecipeItems = new[]
+		{
+            new LootPackItem(typeof(RandomBakingRecipe), 1), new LootPackItem(typeof(RandomPreparationsRecipe), 1),
+            new LootPackItem(typeof(RandomBoilingRecipe), 1), new LootPackItem(typeof(RandomRawMeatPrepRecipe), 1),
+            new LootPackItem(typeof(RandomIngredientsRecipe), 1), new LootPackItem(typeof(RandomSaucesRecipe), 1),
+            new LootPackItem(typeof(RandomOilsRecipe), 1)
+        };
+
+Now to add to Definintions
+
+Find 
+		public static readonly LootPack MlRich =
+			new LootPack(
+				new[]
+				{
+					new LootPackEntry(true, Gold, 100.00, "4d50+450"),
+					new LootPackEntry(false, AosMagicItemsRichType1, 100.00, 1, 3, 0, 75),
+					new LootPackEntry(false, AosMagicItemsRichType1, 80.00, 1, 3, 0, 75),
+					new LootPackEntry(false, AosMagicItemsRichType1, 60.00, 1, 5, 0, 100),
+					new LootPackEntry(false, Instruments, 1.00, 1)
+				});
+
+Now add after new LootPackEntry(false, Instruments, 1.00, 1)
+
+                    new LootPackEntry(false, RandomFoodRecipeItems, 5.00, 1)
+
+So should Look like this
+
+		public static readonly LootPack MlRich =
+			new LootPack(
+				new[]
+				{
+					new LootPackEntry(true, Gold, 100.00, "4d50+450"),
+					new LootPackEntry(false, AosMagicItemsRichType1, 100.00, 1, 3, 0, 75),
+					new LootPackEntry(false, AosMagicItemsRichType1, 80.00, 1, 3, 0, 75),
+					new LootPackEntry(false, AosMagicItemsRichType1, 60.00, 1, 5, 0, 100),
+					new LootPackEntry(false, Instruments, 1.00, 1),
+                    new LootPackEntry(false, RandomFoodRecipeItems, 5.00, 1)
+				});
+
+Now take this code again
+
+                    new LootPackEntry(false, RandomFoodRecipeItems, 5.00, 1)
+
+and add it to the rest of your loots just the way you did with the LootPack MlRich =
+
+Now lets break down the lootpackentry line.
+
+new
+LootPackEntry
+(
+false
+, 
+RandomFoodRecipeItems
+, 
+5.00  This Number is how often it drops on the NPC basicly a Chance so its got a 5% chance to drop on a NPC
+,
+1     This number is how many it drops on the NPC
+)
+
+
+Now to add this to the Npcs to sell
+
+Just add this line to your SbBaker.cs
+
+                this.Add(new GenericBuyInfo(typeof(BagOfSugarRecipe), 10, 20, 0x2831, 0));
+                this.Add(new GenericBuyInfo(typeof(CocoaButterRecipe), 10, 20, 0x2831, 0));
+                this.Add(new GenericBuyInfo(typeof(CocoaLiquorRecipe), 10, 20, 0x2831, 0));
+                this.Add(new GenericBuyInfo(typeof(DoughRecipe), 10, 20, 0x2831, 0));
+                this.Add(new GenericBuyInfo(typeof(SackFlourRecipe), 10, 20, 0x2831, 0));
+                this.Add(new GenericBuyInfo(typeof(SweetDoughRecipe), 10, 20, 0x2831, 0));
+
+he will sell the recipes to players.

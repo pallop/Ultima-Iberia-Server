@@ -1,0 +1,23 @@
+The Quest
+
+ The quest consists of an old man, wild beehives and honey bears. The old man sends the players out to find him honeycombs, which they can pull out of wild beehives and honey bears. (which have to be spawned by you somewhere). The bears look like normal brown bears, except they pack one single honeycomb. In exchange for 5 honeycombs the player gets a Honeycomb Processing Kettle, which allows him/her to separate the honeycomb into raw beeswax and honey.
+
+The Wax Crafting System
+
+ The system uses alchemy and is based on a cap of 100. It is centered on the Wax Crafting Pot. Out of wax you have to craft the base resources (blank candles and candle wicks). with those you can craft the following items:
+
+ -Candles
+ Short, Short Colored (colored candles require dyes and are randomly hued when crafted)
+ Long, Long Colored (colored candles require dyes and are randomly hued when crafted)
+ Skull Candle (requires a special candle fit skull, which you can spawn wherever you want)
+ Candle of love (requires Essence of Love, which you can spawn wherever you want)
+
+ -Decorative items (not usable for candle creation)
+ Dipping Stick (flipable)
+ Some blank candles
+ Pile of blank candles
+ Raw Wax Bust (can be used by anyone with 100 Anatomy to show the face of a targeted player -> "Wax Bust Of *Players Name*")
+
+Usage:
+
+ Drop into scripts/customs folder. Backup and replace files in "modified" folder. Spawn the old man, wild beehives, honeybears, candle fit skull and essence of love anywhere you like.

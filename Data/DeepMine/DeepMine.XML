@@ -1,0 +1,948 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<AllMaps>
+  <Map>
+    <MapID>34</MapID>
+    <Mines>10</Mines>
+    <Levels>10</Levels>
+    <DeepMineInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_1/10_1/10</Region>
+        <Map>34</Map>
+        <X>12</X>
+        <Y>12</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_1/10_2/10</Region>
+        <Map>34</Map>
+        <X>12</X>
+        <Y>421</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_1/10_3/10</Region>
+        <Map>34</Map>
+        <X>12</X>
+        <Y>830</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_1/10_4/10</Region>
+        <Map>34</Map>
+        <X>12</X>
+        <Y>1239</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_1/10_5/10</Region>
+        <Map>34</Map>
+        <X>12</X>
+        <Y>1648</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_1/10_6/10</Region>
+        <Map>34</Map>
+        <X>12</X>
+        <Y>2057</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_1/10_7/10</Region>
+        <Map>34</Map>
+        <X>12</X>
+        <Y>2466</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_1/10_8/10</Region>
+        <Map>34</Map>
+        <X>12</X>
+        <Y>2875</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_1/10_9/10</Region>
+        <Map>34</Map>
+        <X>12</X>
+        <Y>3284</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_1/10_10/10</Region>
+        <Map>34</Map>
+        <X>12</X>
+        <Y>3693</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <HarvestInfo />
+      <MobileDetails />
+    </DeepMineInfo>
+    <DeepMineInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_2/10_1/10</Region>
+        <Map>34</Map>
+        <X>728</X>
+        <Y>12</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_2/10_2/10</Region>
+        <Map>34</Map>
+        <X>728</X>
+        <Y>421</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_2/10_3/10</Region>
+        <Map>34</Map>
+        <X>728</X>
+        <Y>830</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_2/10_4/10</Region>
+        <Map>34</Map>
+        <X>728</X>
+        <Y>1239</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_2/10_5/10</Region>
+        <Map>34</Map>
+        <X>728</X>
+        <Y>1648</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_2/10_6/10</Region>
+        <Map>34</Map>
+        <X>728</X>
+        <Y>2057</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_2/10_7/10</Region>
+        <Map>34</Map>
+        <X>728</X>
+        <Y>2466</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_2/10_8/10</Region>
+        <Map>34</Map>
+        <X>728</X>
+        <Y>2875</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_2/10_9/10</Region>
+        <Map>34</Map>
+        <X>728</X>
+        <Y>3284</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_2/10_10/10</Region>
+        <Map>34</Map>
+        <X>728</X>
+        <Y>3693</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <HarvestInfo />
+      <MobileDetails />
+    </DeepMineInfo>
+    <DeepMineInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_3/10_1/10</Region>
+        <Map>34</Map>
+        <X>1444</X>
+        <Y>12</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_3/10_2/10</Region>
+        <Map>34</Map>
+        <X>1444</X>
+        <Y>421</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_3/10_3/10</Region>
+        <Map>34</Map>
+        <X>1444</X>
+        <Y>830</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_3/10_4/10</Region>
+        <Map>34</Map>
+        <X>1444</X>
+        <Y>1239</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_3/10_5/10</Region>
+        <Map>34</Map>
+        <X>1444</X>
+        <Y>1648</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_3/10_6/10</Region>
+        <Map>34</Map>
+        <X>1444</X>
+        <Y>2057</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_3/10_7/10</Region>
+        <Map>34</Map>
+        <X>1444</X>
+        <Y>2466</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_3/10_8/10</Region>
+        <Map>34</Map>
+        <X>1444</X>
+        <Y>2875</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_3/10_9/10</Region>
+        <Map>34</Map>
+        <X>1444</X>
+        <Y>3284</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_3/10_10/10</Region>
+        <Map>34</Map>
+        <X>1444</X>
+        <Y>3693</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <HarvestInfo />
+      <MobileDetails />
+    </DeepMineInfo>
+    <DeepMineInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_4/10_1/10</Region>
+        <Map>34</Map>
+        <X>2160</X>
+        <Y>12</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_4/10_2/10</Region>
+        <Map>34</Map>
+        <X>2160</X>
+        <Y>421</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_4/10_3/10</Region>
+        <Map>34</Map>
+        <X>2160</X>
+        <Y>830</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_4/10_4/10</Region>
+        <Map>34</Map>
+        <X>2160</X>
+        <Y>1239</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_4/10_5/10</Region>
+        <Map>34</Map>
+        <X>2160</X>
+        <Y>1648</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_4/10_6/10</Region>
+        <Map>34</Map>
+        <X>2160</X>
+        <Y>2057</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_4/10_7/10</Region>
+        <Map>34</Map>
+        <X>2160</X>
+        <Y>2466</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_4/10_8/10</Region>
+        <Map>34</Map>
+        <X>2160</X>
+        <Y>2875</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_4/10_9/10</Region>
+        <Map>34</Map>
+        <X>2160</X>
+        <Y>3284</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_4/10_10/10</Region>
+        <Map>34</Map>
+        <X>2160</X>
+        <Y>3693</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <HarvestInfo />
+      <MobileDetails />
+    </DeepMineInfo>
+    <DeepMineInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_5/10_1/10</Region>
+        <Map>34</Map>
+        <X>2876</X>
+        <Y>12</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_5/10_2/10</Region>
+        <Map>34</Map>
+        <X>2876</X>
+        <Y>421</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_5/10_3/10</Region>
+        <Map>34</Map>
+        <X>2876</X>
+        <Y>830</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_5/10_4/10</Region>
+        <Map>34</Map>
+        <X>2876</X>
+        <Y>1239</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_5/10_5/10</Region>
+        <Map>34</Map>
+        <X>2876</X>
+        <Y>1648</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_5/10_6/10</Region>
+        <Map>34</Map>
+        <X>2876</X>
+        <Y>2057</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_5/10_7/10</Region>
+        <Map>34</Map>
+        <X>2876</X>
+        <Y>2466</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_5/10_8/10</Region>
+        <Map>34</Map>
+        <X>2876</X>
+        <Y>2875</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_5/10_9/10</Region>
+        <Map>34</Map>
+        <X>2876</X>
+        <Y>3284</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_5/10_10/10</Region>
+        <Map>34</Map>
+        <X>2876</X>
+        <Y>3693</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <HarvestInfo />
+      <MobileDetails />
+    </DeepMineInfo>
+    <DeepMineInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_6/10_1/10</Region>
+        <Map>34</Map>
+        <X>3592</X>
+        <Y>12</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_6/10_2/10</Region>
+        <Map>34</Map>
+        <X>3592</X>
+        <Y>421</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_6/10_3/10</Region>
+        <Map>34</Map>
+        <X>3592</X>
+        <Y>830</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_6/10_4/10</Region>
+        <Map>34</Map>
+        <X>3592</X>
+        <Y>1239</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_6/10_5/10</Region>
+        <Map>34</Map>
+        <X>3592</X>
+        <Y>1648</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_6/10_6/10</Region>
+        <Map>34</Map>
+        <X>3592</X>
+        <Y>2057</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_6/10_7/10</Region>
+        <Map>34</Map>
+        <X>3592</X>
+        <Y>2466</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_6/10_8/10</Region>
+        <Map>34</Map>
+        <X>3592</X>
+        <Y>2875</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_6/10_9/10</Region>
+        <Map>34</Map>
+        <X>3592</X>
+        <Y>3284</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_6/10_10/10</Region>
+        <Map>34</Map>
+        <X>3592</X>
+        <Y>3693</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <HarvestInfo />
+      <MobileDetails />
+    </DeepMineInfo>
+    <DeepMineInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_7/10_1/10</Region>
+        <Map>34</Map>
+        <X>4308</X>
+        <Y>12</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_7/10_2/10</Region>
+        <Map>34</Map>
+        <X>4308</X>
+        <Y>421</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_7/10_3/10</Region>
+        <Map>34</Map>
+        <X>4308</X>
+        <Y>830</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_7/10_4/10</Region>
+        <Map>34</Map>
+        <X>4308</X>
+        <Y>1239</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_7/10_5/10</Region>
+        <Map>34</Map>
+        <X>4308</X>
+        <Y>1648</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_7/10_6/10</Region>
+        <Map>34</Map>
+        <X>4308</X>
+        <Y>2057</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_7/10_7/10</Region>
+        <Map>34</Map>
+        <X>4308</X>
+        <Y>2466</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_7/10_8/10</Region>
+        <Map>34</Map>
+        <X>4308</X>
+        <Y>2875</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_7/10_9/10</Region>
+        <Map>34</Map>
+        <X>4308</X>
+        <Y>3284</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_7/10_10/10</Region>
+        <Map>34</Map>
+        <X>4308</X>
+        <Y>3693</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <HarvestInfo />
+      <MobileDetails />
+    </DeepMineInfo>
+    <DeepMineInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_8/10_1/10</Region>
+        <Map>34</Map>
+        <X>5024</X>
+        <Y>12</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_8/10_2/10</Region>
+        <Map>34</Map>
+        <X>5024</X>
+        <Y>421</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_8/10_3/10</Region>
+        <Map>34</Map>
+        <X>5024</X>
+        <Y>830</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_8/10_4/10</Region>
+        <Map>34</Map>
+        <X>5024</X>
+        <Y>1239</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_8/10_5/10</Region>
+        <Map>34</Map>
+        <X>5024</X>
+        <Y>1648</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_8/10_6/10</Region>
+        <Map>34</Map>
+        <X>5024</X>
+        <Y>2057</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_8/10_7/10</Region>
+        <Map>34</Map>
+        <X>5024</X>
+        <Y>2466</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_8/10_8/10</Region>
+        <Map>34</Map>
+        <X>5024</X>
+        <Y>2875</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_8/10_9/10</Region>
+        <Map>34</Map>
+        <X>5024</X>
+        <Y>3284</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_8/10_10/10</Region>
+        <Map>34</Map>
+        <X>5024</X>
+        <Y>3693</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <HarvestInfo />
+      <MobileDetails />
+    </DeepMineInfo>
+    <DeepMineInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_9/10_1/10</Region>
+        <Map>34</Map>
+        <X>5740</X>
+        <Y>12</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_9/10_2/10</Region>
+        <Map>34</Map>
+        <X>5740</X>
+        <Y>421</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_9/10_3/10</Region>
+        <Map>34</Map>
+        <X>5740</X>
+        <Y>830</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_9/10_4/10</Region>
+        <Map>34</Map>
+        <X>5740</X>
+        <Y>1239</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_9/10_5/10</Region>
+        <Map>34</Map>
+        <X>5740</X>
+        <Y>1648</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_9/10_6/10</Region>
+        <Map>34</Map>
+        <X>5740</X>
+        <Y>2057</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_9/10_7/10</Region>
+        <Map>34</Map>
+        <X>5740</X>
+        <Y>2466</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_9/10_8/10</Region>
+        <Map>34</Map>
+        <X>5740</X>
+        <Y>2875</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_9/10_9/10</Region>
+        <Map>34</Map>
+        <X>5740</X>
+        <Y>3284</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_9/10_10/10</Region>
+        <Map>34</Map>
+        <X>5740</X>
+        <Y>3693</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <HarvestInfo />
+      <MobileDetails />
+    </DeepMineInfo>
+    <DeepMineInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_10/10_1/10</Region>
+        <Map>34</Map>
+        <X>6456</X>
+        <Y>12</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_10/10_2/10</Region>
+        <Map>34</Map>
+        <X>6456</X>
+        <Y>421</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_10/10_3/10</Region>
+        <Map>34</Map>
+        <X>6456</X>
+        <Y>830</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_10/10_4/10</Region>
+        <Map>34</Map>
+        <X>6456</X>
+        <Y>1239</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_10/10_5/10</Region>
+        <Map>34</Map>
+        <X>6456</X>
+        <Y>1648</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_10/10_6/10</Region>
+        <Map>34</Map>
+        <X>6456</X>
+        <Y>2057</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_10/10_7/10</Region>
+        <Map>34</Map>
+        <X>6456</X>
+        <Y>2466</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_10/10_8/10</Region>
+        <Map>34</Map>
+        <X>6456</X>
+        <Y>2875</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_10/10_9/10</Region>
+        <Map>34</Map>
+        <X>6456</X>
+        <Y>3284</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <DeepLevelInfo>
+        <Region>MapNoire_34_10/10_10/10</Region>
+        <Map>34</Map>
+        <X>6456</X>
+        <Y>3693</Y>
+        <Width>704</Width>
+        <Height>397</Height>
+        <Spots />
+      </DeepLevelInfo>
+      <HarvestInfo />
+      <MobileDetails />
+    </DeepMineInfo>
+  </Map>
+</AllMaps>

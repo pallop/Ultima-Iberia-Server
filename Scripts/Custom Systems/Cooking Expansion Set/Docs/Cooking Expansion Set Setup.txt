@@ -1,0 +1,302 @@
+First you will need to turn off all this files in your scripts/items/food
+Asian.cs beverage.cs beverageempty.cs cookablefoods.cs
+cooking.cs foods.cs fruits.cs Vegetables.cs bowls.cs
+
+You will also need to turn off all the fireplace addons in you items/addons folder
+GrayBrickFireplaceEastAddon.cs, GrayBrickFireplaceSouthAddon.cs, SandstoneFireplaceEastAddon.cs, SandstoneFireplaceSouthAddon.cs,
+StoneFireplaceEastAddon.cs, StoneFireplaceSouthAddon.cs
+
+BECAUSE THERE IS NO WAY TO MERGE as i split the foods and stuff all up into there own cs files
+
+
+Then you need to go and turn off all the farming folder .cs files
+
+You also need to turn off the SBbeekeeper.cs, CandleLong.cs, CandleShort.cs, CandleSkull.cs
+
+Then you will need to shut off you defcooking.cs file as it will not be needed.
+
+Here is the edits to basecreature.cs
+
+
+first find this
+
+	public enum MeatType
+	{
+		Ribs,
+		Bird,
+		LambLeg
+	}
+
+Change that to look like this
+
+	public enum MeatType
+	{
+		Ribs,
+		Bird,
+		LambLeg,
+                Venison,
+                Chicken,
+                Duck,
+                Turkey
+	}
+
+then find this
+
+				if (meat != 0)
+				{
+					if (MeatType == MeatType.Ribs)
+					{
+						corpse.AddCarvedItem(new RawRibs(meat), from);
+					}
+					else if (MeatType == MeatType.Bird)
+					{
+						corpse.AddCarvedItem(new RawBird(meat), from);
+					}
+					else if (MeatType == MeatType.LambLeg)
+					{
+						corpse.AddCarvedItem(new RawLambLeg(meat), from);
+					}
+
+					from.SendLocalizedMessage(500467); // You carve some meat, which remains on the corpse.
+				}
+
+change it to look like this
+
+				if (meat != 0)
+				{
+					if (MeatType == MeatType.Ribs)
+					{
+						corpse.AddCarvedItem(new RawRibs(meat), from);
+					}
+					else if (MeatType == MeatType.Bird)
+					{
+						corpse.AddCarvedItem(new RawBird(meat), from);
+					}
+					else if (MeatType == MeatType.LambLeg)
+					{
+						corpse.AddCarvedItem(new RawLambLeg(meat), from);
+					}
+                                        else if (MeatType == MeatType.Venison)
+                                        {
+                                                corpse.AddCarvedItem(new RawVenisonSteak(meat), from);
+                                        }
+                                        else if (MeatType == MeatType.Chicken)
+                                        {
+                                                corpse.AddCarvedItem(new RawChicken(meat), from);
+                                        }
+                                        else if (MeatType == MeatType.Duck)
+                                        {
+                                                corpse.AddCarvedItem(new RawDuck(meat), from);
+                                        }
+                                        else if (MeatType == MeatType.Turkey)
+                                        {
+                                                corpse.AddCarvedItem(new RawTurkey(meat), from);
+                                        }
+
+					from.SendLocalizedMessage(500467); // You carve some meat, which remains on the corpse.
+				}
+
+Now find this line
+
+public override bool ShouldCheckStatTimers { get { return false; } }
+
+Under that is the foodsection replace the sections i added here.
+
+		private static readonly Type[] m_Eggs = new[] 
+        {
+            typeof(FriedDuckEggs), typeof(FriedChickenEggs), typeof(BrightEggs), typeof(BrightlyColoredEggs),
+            typeof(EasterEggs), typeof(HarpyEggs), typeof(FriedEggs), typeof(Eggs)
+        };
+
+		private static readonly Type[] m_Fish = new[] {typeof(FishSteak), typeof(RawFishSteak)};
+
+		private static readonly Type[] m_GrainsAndHay = new[] 
+        {
+            typeof(BananaBread), typeof(BlueberryMuffins), typeof(CornBread), typeof(GarlicBread), typeof(Hay),
+            typeof(OatSheath), typeof(PumpkinBread), typeof(PumpkinMuffins), typeof(RiceSheath), typeof(Wheat),
+            typeof(WheatSheaf), typeof(BreadLoaf), typeof(FrenchBread), typeof(SheafOfHay)
+        };
+
+		private static readonly Type[] m_Meat = new[]
+		{
+            #region Game Meats
+            typeof(Venison), typeof(VenisonJerky), typeof(VenisonRoast), typeof(VenisonRoastSlices), typeof(VenisonSteak),
+            typeof(RawGroundVenison), typeof(RawVenisonRoast), typeof(RawVenisonSlice), typeof(RawVenisonSteak),
+            #endregion
+            #region Lean Ground Meats
+            typeof(BeefHock), typeof(BeefJerky), typeof(BeefPorterhouse), typeof(BeefPrimeRib), typeof(BeefRibeye), typeof(BeefRoast), typeof(BeefRibs),
+            typeof(BeefRoastSlices), typeof(BeefSirloin), typeof(BeefTBone), typeof(BeefTenderloin), typeof(GoatRoast), typeof(GoatRoastSlices), typeof(GoatSteak), typeof(BaconSlab),
+            typeof(HamSlices), typeof(PigHead), typeof(PorkChop), typeof(PorkRoast), typeof(PorkSpareRibs), typeof(RoastHam), typeof(RoastPig), typeof(SlabOfBacon),
+            typeof(Trotters), typeof(MuttonRoast), typeof(MuttonRoastSlices), typeof(MuttonSteak), typeof(CookedSteak),
+            typeof(RawBeefPorterhouse), typeof(RawBeefPrimeRib), typeof(RawBeefRibeye), typeof(RawBeefRibs), typeof(RawBeefRoast), typeof(RawBeefSirloin), typeof(RawBeefSlice), typeof(RawBeefTBone),
+            typeof(RawBeefTenderloin), typeof(RawGroundBeef), typeof(RawGoatRoast), typeof(RawGoatSteak), typeof(PorkHock), typeof(RawBacon), typeof(RawBaconSlab), typeof(RawGroundPork),
+            typeof(RawHam), typeof(RawHamSlices), typeof(RawPigHead), typeof(RawPorkChop), typeof(RawPorkRoast), typeof(RawPorkSlice), typeof(RawSpareRibs), typeof(RawTrotters),
+            typeof(RawMuttonRoast), typeof(RawMuttonSteak), typeof(RawSteak),
+            #endregion
+            #region Poulty
+            typeof(RoastChicken), typeof(RoastDuck), typeof(DuckLeg), typeof(RoastTurkey), typeof(SlicedTurkey), typeof(TurkeyHock), typeof(TurkeyLeg), typeof(TurkeyPlatter),
+            typeof(RawChicken), typeof(RawDuck), typeof(RawDuckLeg), typeof(RawTurkey), typeof(RawTurkeyLeg),
+            #endregion
+			/* Cooked */
+			typeof(Bacon), typeof(CookedBird), typeof(Sausage), typeof(Ham), typeof(Ribs), typeof(LambLeg), typeof(ChickenLeg),
+			/* Uncooked */
+			typeof(RawBird), typeof(RawRibs), typeof(RawLambLeg), typeof(RawChickenLeg), /* Body Parts */
+			typeof(Head), typeof(LeftArm), typeof(LeftLeg), typeof(Torso), typeof(RightArm), typeof(RightLeg)
+		};
+
+		private static readonly Type[] m_FruitsAndVegies = new[]
+		{
+            typeof(Asparagus), typeof(Avocado), typeof(Beet), typeof(Broccoli), typeof(Cauliflower), typeof(Celery),
+            typeof(ChiliPepper), typeof(Cucumber), typeof(Eggplant), typeof(FieldCorn), typeof(GreenBean),
+            typeof(GreenPepper), typeof(GreenSquash), typeof(GreenSquash), typeof(Mushrooms), typeof(OrangePepper), typeof(Peas),
+            typeof(Potato), typeof(Radish), typeof(RedMushroom), typeof(RedPepper), typeof(SnowPeas), typeof(Soybean),
+            typeof(Spinach), typeof(SweetPotato), typeof(TanGinger), typeof(TanMushroom), typeof(TeaLeaves), typeof(Tomato),
+            typeof(Turnip), typeof(YellowPepper), typeof(Apricot), typeof(Blackberry), typeof(Blueberry), typeof(Cherry),
+            typeof(CoffeeBean), typeof(Cranberry), typeof(Elderberries), typeof(Grapefruit), typeof(Kiwi), typeof(Mango),
+            typeof(Orange), typeof(Pineapple), typeof(Plum), typeof(Pomegranate), typeof(Prune), typeof(RedRaspberry),
+            typeof(BlackRaspberry), typeof(Strawberries), typeof(Strawberry),
+			typeof(HoneydewMelon), typeof(YellowGourd), typeof(GreenGourd), typeof(Banana), typeof(Bananas), typeof(Lemon),
+			typeof(Lime), typeof(Dates), typeof(Grapes), typeof(Peach), typeof(Pear), typeof(Apple), typeof(Watermelon),
+			typeof(Squash), typeof(Cantaloupe), typeof(Carrot), typeof(Cabbage), typeof(Onion), typeof(Lettuce), typeof(Pumpkin)
+		};
+
+		private static Type[] m_Gold = new[]
+		{
+			// white wyrms eat gold..
+			typeof(Gold)
+		};
+
+		private static readonly Type[] m_Metal = new[]
+		{
+			// Some Stygian Abyss Monsters eat Metal..
+			typeof(IronIngot), typeof(DullCopperIngot), typeof(ShadowIronIngot), typeof(CopperIngot), typeof(BronzeIngot),
+			typeof(GoldIngot), typeof(AgapiteIngot), typeof(VeriteIngot), typeof(ValoriteIngot)
+		};
+
+
+
+Now go and open your craftitem.cs
+
+Find this line
+		private bool m_NeedMill;
+
+After that Line add this
+
+        #region Cooking System
+        private bool m_NeedCauldron;
+        private bool m_NeedDistillery;
+        private bool m_NeedSteamPoweredBeverageMaker;
+        #endregion
+
+then find this line
+
+        public bool NeedMill { get { return m_NeedMill; } set { m_NeedMill = value; } }
+
+add this after that
+
+        #region Cooking System
+        public bool NeedCauldron { get { return m_NeedCauldron; } set { m_NeedCauldron = value; } }
+        public bool NeedDistillery { get { return m_NeedDistillery; } set { m_NeedDistillery = value; } }
+        public bool NeedSteamPoweredBeverageMaker { get { return m_NeedSteamPoweredBeverageMaker; } set { m_NeedSteamPoweredBeverageMaker = value; } }
+        #endregion
+
+then find this line
+
+        private static readonly int[] m_Mills = new[]
+		{
+			0x1920, 0x1921, 0x1922, 0x1923, 0x1924, 0x1295, 0x1926, 0x1928, 0x192C, 0x192D, 0x192E, 0x129F, 0x1930, 0x1931,
+			0x1932, 0x1934
+		};
+
+add this after that line
+
+        #region Cooking System
+        private static readonly int[] m_Cauldrons = new[]
+		{
+			0x0974, 0x0975
+		};
+        private static readonly int[] m_Distillerys = new[]
+		{
+			0x3DB8, 0x3DB9, 0x3DBA, 0x3DBB
+		};
+        private static readonly int[] m_SteamPoweredBeverageMakers = new[]
+		{
+			0x9A96, 0x9A96
+		};
+        #endregion
+
+then find this line
+
+			if (m_NeedMill && !Find(from, m_Mills))
+			{
+				message = 1044491; // You must be near a flour mill to do that.
+				return false;
+            }
+
+after that add this line
+
+            #region Cooking System
+            if (m_NeedCauldron && !Find(from, m_Cauldrons))
+			{
+				message = "You must be near a cauldron to do that."; // You must be near a flour mill to do that.
+				return false;
+            }
+            if (m_NeedDistillery && !Find(from, m_Distillerys))
+            {
+                message = "You must be near a distillery to do that.";
+                return false;
+            }
+            if (m_NeedSteamPoweredBeverageMaker && !Find(from, m_SteamPoweredBeverageMakers))
+            {
+                message = "You must be near a Steam Powered Beverage Maker to do that.";
+                return false;
+            }
+            #endregion
+
+
+Now go open craftsystem.cs
+
+Find this line
+
+        public void SetNeedMill(int index, bool needMill)
+        {
+            CraftItem craftItem = this.m_CraftItems.GetAt(index);
+            craftItem.NeedMill = needMill;
+        }
+
+add this after that
+
+        #region Cooking System
+        public void SetNeedCauldron(int index, bool needCauldron)
+        {
+            CraftItem craftItem = this.m_CraftItems.GetAt(index);
+            craftItem.NeedCauldron = needCauldron;
+        }
+        public void SetNeedDistillery(int index, bool needDistillery)
+        {
+            CraftItem craftItem = this.m_CraftItems.GetAt(index);
+            craftItem.NeedDistillery = needDistillery;
+        }
+        public void SetNeedSteamPoweredBeverageMaker(int index, bool needSteamPoweredBeverageMaker)
+        {
+            CraftItem craftItem = this.m_CraftItems.GetAt(index);
+            craftItem.NeedSteamPoweredBeverageMaker = needSteamPoweredBeverageMaker;
+        }
+        #endregion
+
+
+Also need to make edit in SetItem.cs
+
+Find This
+
+        Sorcerer
+
+After Sorcerer add this and make sure you put , after Sorcerer
+        Chefs
+
+so it all should look like this
+
+        Sorcerer,
+        
+        Chefs
+

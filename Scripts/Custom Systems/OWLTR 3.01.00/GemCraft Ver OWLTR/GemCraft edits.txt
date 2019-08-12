@@ -1,0 +1,256 @@
+Tink edit to give players a reg gemcraft tool along with the runic ones. GemCraft items themselves will only have attributes from scripted armor & maybe the gems. Runic will have extra attributes like with standard runic hammer. :)
+DefTinkering.cs edit
+Tools region, line 170
+            AddCraft(typeof(GemCraftTool), 1044046, "GemCraftTool", 50.0, 100.0, typeof(IronIngot), 1044036, 3, 1044037);
+
+------------------------------
+
+ResourceInfo.cs edits
+line 68:
+        Frostwood,  // dont forget comma here
+
+        BlueDiamond = 401,  //line 68
+        BrilliantAmber,
+        DarkSapphire,
+        EcruCitrine,
+        FireRuby,
+        PerfectEmerald,
+        Turquoise,
+        WhitePearl
+
+---------------------------
+
+line 85:
+	Wood,  // dont forget comma
+        MLGem  // line 85
+
+-----------------------------
+
+line 153:
+        //daat99 OWLTR end - custom resource
+        public static readonly CraftAttributeInfo BlueDiamond, BrilliantAmber, DarkSapphire, EcruCitrine, FireRuby, PerfectEmerald, Turquoise, WhitePearl;  // line 153
+
+--------------------------------
+
+line 696:
+            #region Hammerhand edit
+
+            
+            CraftAttributeInfo blueDiamond = BlueDiamond = new CraftAttributeInfo();
+
+            blueDiamond.ArmorPhysicalResist = 8;
+            blueDiamond.ArmorDurability = 50;
+            blueDiamond.ArmorLowerRequirements = 20;
+            blueDiamond.WeaponDurability = 100;
+            blueDiamond.WeaponLowerRequirements = 50;
+            blueDiamond.RunicMinAttributes = 1;
+            blueDiamond.RunicMaxAttributes = 2;
+            if (Core.ML)
+            {
+                blueDiamond.RunicMinIntensity = 40;
+                blueDiamond.RunicMaxIntensity = 100;
+            }
+            else
+            {
+                blueDiamond.RunicMinIntensity = 10;
+                blueDiamond.RunicMaxIntensity = 35;
+            }
+
+            CraftAttributeInfo brilliantAmber = BrilliantAmber = new CraftAttributeInfo();
+
+            brilliantAmber.ArmorPhysicalResist = 2;
+            brilliantAmber.ArmorFireResist = 1;
+            brilliantAmber.ArmorEnergyResist = 6;
+            brilliantAmber.ArmorDurability = 100;
+            brilliantAmber.WeaponColdDamage = 20;
+            brilliantAmber.WeaponDurability = 50;
+            brilliantAmber.RunicMinAttributes = 2;
+            brilliantAmber.RunicMaxAttributes = 2;
+            if (Core.ML)
+            {
+                brilliantAmber.RunicMinIntensity = 45;
+                brilliantAmber.RunicMaxIntensity = 100;
+            }
+            else
+            {
+                brilliantAmber.RunicMinIntensity = 20;
+                brilliantAmber.RunicMaxIntensity = 45;
+            }
+
+            CraftAttributeInfo darkSapphire = DarkSapphire = new CraftAttributeInfo();
+
+            darkSapphire.ArmorPhysicalResist = 1;
+            darkSapphire.ArmorFireResist = 1;
+            darkSapphire.ArmorPoisonResist = 6;
+            darkSapphire.ArmorEnergyResist = 2;
+            darkSapphire.WeaponPoisonDamage = 10;
+            darkSapphire.WeaponEnergyDamage = 20;
+            darkSapphire.RunicMinAttributes = 2;
+            darkSapphire.RunicMaxAttributes = 3;
+            if (Core.ML)
+            {
+                darkSapphire.RunicMinIntensity = 50;
+                darkSapphire.RunicMaxIntensity = 100;
+            }
+            else
+            {
+                darkSapphire.RunicMinIntensity = 25;
+                darkSapphire.RunicMaxIntensity = 50;
+            }
+
+            CraftAttributeInfo ecruCitrine = EcruCitrine = new CraftAttributeInfo();
+
+            ecruCitrine.ArmorPhysicalResist = 3;
+            ecruCitrine.ArmorColdResist = 7;
+            ecruCitrine.ArmorPoisonResist = 1;
+            ecruCitrine.ArmorEnergyResist = 1;
+            ecruCitrine.WeaponFireDamage = 40;
+            ecruCitrine.RunicMinAttributes = 3;
+            ecruCitrine.RunicMaxAttributes = 3;
+            if (Core.ML)
+            {
+                ecruCitrine.RunicMinIntensity = 55;
+                ecruCitrine.RunicMaxIntensity = 100;
+            }
+            else
+            {
+                ecruCitrine.RunicMinIntensity = 30;
+                ecruCitrine.RunicMaxIntensity = 65;
+            }
+
+            CraftAttributeInfo fireRuby = FireRuby = new CraftAttributeInfo();
+
+            fireRuby.ArmorPhysicalResist = 1;
+            fireRuby.ArmorFireResist = 7;
+            fireRuby.ArmorColdResist = 2;
+            fireRuby.ArmorEnergyResist = 2;
+            fireRuby.ArmorLuck = 40;
+            fireRuby.ArmorLowerRequirements = 30;
+            fireRuby.WeaponLuck = 40;
+            fireRuby.WeaponLowerRequirements = 50;
+            fireRuby.RunicMinAttributes = 3;
+            fireRuby.RunicMaxAttributes = 4;
+            if (Core.ML)
+            {
+                fireRuby.RunicMinIntensity = 60;
+                fireRuby.RunicMaxIntensity = 100;
+            }
+            else
+            {
+                fireRuby.RunicMinIntensity = 35;
+                fireRuby.RunicMaxIntensity = 75;
+            }
+
+            CraftAttributeInfo perfectEmerald = PerfectEmerald = new CraftAttributeInfo();
+
+            perfectEmerald.ArmorPhysicalResist = 2;
+            perfectEmerald.ArmorFireResist = 3;
+            perfectEmerald.ArmorColdResist = 2;
+            perfectEmerald.ArmorPoisonResist = 2;
+            perfectEmerald.ArmorEnergyResist = 6;
+            perfectEmerald.WeaponColdDamage = 30;
+            perfectEmerald.WeaponEnergyDamage = 20;
+            perfectEmerald.RunicMinAttributes = 4;
+            perfectEmerald.RunicMaxAttributes = 4;
+            if (Core.ML)
+            {
+                perfectEmerald.RunicMinIntensity = 65;
+                perfectEmerald.RunicMaxIntensity = 100;
+            }
+            else
+            {
+                perfectEmerald.RunicMinIntensity = 40;
+                perfectEmerald.RunicMaxIntensity = 80;
+            }
+
+            CraftAttributeInfo turquoise = Turquoise = new CraftAttributeInfo();
+
+            turquoise.ArmorPhysicalResist = 3;
+            turquoise.ArmorFireResist = 3;
+            turquoise.ArmorColdResist = 2;
+            turquoise.ArmorPoisonResist = 5;
+            turquoise.ArmorEnergyResist = 4;
+            turquoise.WeaponPoisonDamage = 40;
+            turquoise.WeaponEnergyDamage = 20;
+            turquoise.RunicMinAttributes = 4;
+            turquoise.RunicMaxAttributes = 5;
+            if (Core.ML)
+            {
+                turquoise.RunicMinIntensity = 70;
+                turquoise.RunicMaxIntensity = 100;
+            }
+            else
+            {
+                turquoise.RunicMinIntensity = 45;
+                turquoise.RunicMaxIntensity = 90;
+            }
+
+            CraftAttributeInfo whitePearl = WhitePearl = new CraftAttributeInfo();
+
+            whitePearl.ArmorPhysicalResist = 4;
+            whitePearl.ArmorColdResist = 3;
+            whitePearl.ArmorPoisonResist = 5;
+            whitePearl.ArmorEnergyResist = 3;
+            whitePearl.ArmorDurability = 50;
+            whitePearl.WeaponFireDamage = 10;
+            whitePearl.WeaponColdDamage = 20;
+            whitePearl.WeaponPoisonDamage = 10;
+            whitePearl.WeaponEnergyDamage = 20;
+            whitePearl.RunicMinAttributes = 5;
+            whitePearl.RunicMaxAttributes = 5;
+            if (Core.ML)
+            {
+                whitePearl.RunicMinIntensity = 85;
+                whitePearl.RunicMaxIntensity = 100;
+            }
+            else
+            {
+                whitePearl.RunicMinIntensity = 50;
+                whitePearl.RunicMaxIntensity = 100;
+            }
+            #endregion
+
+----------------------------------------------
+
+line 991:
+				new CraftResourceInfo( 0x47F, 1072539, "Frostwood",		CraftAttributeInfo.Frostwood,	CraftResource.Frostwood,	typeof( FrostwoodLog ),	typeof( FrostwoodBoard ) ), // dont forget comma
+			};
+        #region Hammerhand edit  
+        private static CraftResourceInfo[] m_MLGemInfo = new CraftResourceInfo[]
+			{
+				new CraftResourceInfo( 1173, 1026255, "BlueDiamond",	CraftAttributeInfo.BlueDiamond,	CraftResource.BlueDiamond,		typeof( BlueDiamond ) ),
+				new CraftResourceInfo( 1281, 1026256, "BrilliantAmber",	CraftAttributeInfo.BrilliantAmber,	CraftResource.BrilliantAmber,		typeof( BrilliantAmber ) ),
+				new CraftResourceInfo( 1176, 1026249, "DarkSapphire",		CraftAttributeInfo.DarkSapphire,		CraftResource.DarkSapphire,			typeof( DarkSapphire ) ),
+				new CraftResourceInfo( 1922, 1026252, "EcruCitrine",		CraftAttributeInfo.EcruCitrine,		CraftResource.EcruCitrine,			typeof( EcruCitrine ) ),
+				new CraftResourceInfo( 2117, 1026254, "FireRuby",			CraftAttributeInfo.FireRuby,		CraftResource.FireRuby,				typeof( FireRuby ) ),
+				new CraftResourceInfo( 1372, 1026251, "PerfectEmerald",		CraftAttributeInfo.PerfectEmerald,		CraftResource.PerfectEmerald,			typeof( PerfectEmerald ) ),
+				new CraftResourceInfo( 1366, 1026250, "Turquoise",		CraftAttributeInfo.Turquoise,		CraftResource.Turquoise,			typeof( Turquoise ) ),
+				new CraftResourceInfo( 1150, 1026253, "WhitePearl",		CraftAttributeInfo.WhitePearl,	CraftResource.WhitePearl,			typeof( WhitePearl ) )
+            }; 
+        #endregion
+
+----------------------------
+
+line 1009:
+Change
+return ( resource == CraftResource.None || resource == CraftResource.Iron || resource == CraftResource.RegularLeather || resource == CraftResource.RegularWood );
+to
+return ( resource == CraftResource.None || resource == CraftResource.Iron || resource == CraftResource.RegularLeather || resource == CraftResource.RegularWood || resource == CraftResource.BlueDiamond );
+
+----------------
+
+line 1054:
+case CraftResourceType.MLGem: list = m_MLGemInfo; break; // Hammerhand edit
+
+-------------------
+
+line 1085:
+            if (resource >= CraftResource.BlueDiamond && resource <= CraftResource.WhitePearl)
+                return CraftResourceType.MLGem;  // Hammerhand edit
+
+-----------------------
+
+line 1102:
+case CraftResourceType.MLGem: return CraftResource.BlueDiamond;  // Hammerhand edit
+
+----------------------------

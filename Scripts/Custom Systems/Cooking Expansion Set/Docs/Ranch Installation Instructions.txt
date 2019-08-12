@@ -1,0 +1,68 @@
+
+In Baseanimal.cs 
+under this section of code
+if (InRange(FoodItem, 1) && CanCheckEat())
+I commented out the head You have to be using the bounty system to use that section if you have the bounty system then you can just uncomment it.
+
+Here are all the files You will need to turn off.
+packhorse.cs
+packllama.cs
+
+In playermobiles.cs
+find this
+	public enum NpcGuild
+	{
+		None,
+		MagesGuild,
+		WarriorsGuild,
+		ThievesGuild,
+		RangersGuild,
+		HealersGuild,
+		MinersGuild,
+		MerchantsGuild,
+		TinkersGuild,
+		TailorsGuild,
+		FishermensGuild,
+		BardsGuild,
+		BlacksmithsGuild
+	}
+
+Add this line of code right after blacksmithsguild
+        RanchersGuild
+
+BaseAI.cs Edits:
+	at the end of this
+	public enum AIType
+	{
+	
+	add:
+		AI_WildAnimal
+	
+BaseCreature.cs Edits:
+	at the end of the switch statement in this module
+        public void ChangeAIType(AIType NewAI)
+        {
+            if (m_AI != null)
+                m_AI.m_Timer.Stop();
+
+            if (ForcedAI != null)
+            {
+                m_AI = ForcedAI;
+                return;
+            }
+
+            m_AI = null;
+
+            switch (NewAI)
+            {
+			
+	add:
+				case AIType.AI_WildAnimal:
+					if (!(this is BaseAnimal)) 
+					{
+						m_AI = new AnimalAI(this);
+						m_CurrentAI = AIType.AI_Animal;
+					}
+					else m_AI = new WildAnimalAI(this);
+					break;
+

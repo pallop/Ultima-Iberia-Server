@@ -1,0 +1,17 @@
+<doors count="9">
+  <facet index="0" name="Felucca" count="9">
+    <region name="Bosque Grande" count="8">
+      <door type="MetalDoor2" x="1021" y="657" z="5" ox="1" oy="1" oz="0" oid="1742" cid="1741" locked="false" osound="236" csound="243" />
+      <door type="MetalDoor2" x="1027" y="656" z="2" ox="1" oy="-1" oz="0" oid="1740" cid="1739" locked="false" osound="236" csound="243" />
+      <door type="StrongWoodDoor" x="1019" y="641" z="5" ox="1" oy="1" oz="0" oid="1768" cid="1767" locked="false" osound="234" csound="241" />
+      <door type="StrongWoodDoor" x="1016" y="647" z="5" ox="1" oy="1" oz="0" oid="1774" cid="1773" locked="false" osound="234" csound="241" />
+      <door type="StrongWoodDoor" x="1017" y="645" z="5" ox="1" oy="-1" oz="0" oid="1776" cid="1775" locked="false" osound="234" csound="241" />
+      <door type="StrongWoodDoor" x="1032" y="647" z="5" ox="1" oy="1" oz="0" oid="1768" cid="1767" locked="false" osound="234" csound="241" />
+      <door type="StrongWoodDoor" x="1030" y="646" z="5" ox="-1" oy="1" oz="0" oid="1766" cid="1765" locked="false" osound="234" csound="241" />
+      <door type="StrongWoodDoor" x="1028" y="641" z="5" ox="1" oy="1" oz="0" oid="1768" cid="1767" locked="false" osound="234" csound="241" />
+    </region>
+    <region name="Bosques Este" count="1">
+      <door type="StrongWoodDoor" x="1308" y="678" z="10" ox="1" oy="1" oz="0" oid="1774" cid="1773" locked="false" osound="234" csound="241" />
+    </region>
+  </facet>
+</doors>

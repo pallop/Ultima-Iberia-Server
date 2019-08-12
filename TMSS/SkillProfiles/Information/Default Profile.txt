@@ -1,0 +1,80 @@
+This is the output for Default Profile on 09/28/2015 06:11:04
+
+
+General: 
+	-Manual: True
+	-Stat Force: True
+	-Stats Enabled: True
+	-Stat Sum: 280
+	-Strength: 100
+	-Dexterity: 100
+	-Intelligence: 100
+	-Skill Force: True
+	-Name: Default Profile
+	-Num Allowed Skills: 7
+	-Skill Sum: 900
+	-Skill Sum: True
+	-Skill Sum: True
+
+
+Enabled Skills & Skill Values: 
+Index: 0 Name: Alchemy Is: True And its Max Value is: 100
+Index: 1 Name: Anatomy Is: True And its Max Value is: 100
+Index: 2 Name: Animal Lore Is: True And its Max Value is: 100
+Index: 3 Name: Item Identification Is: True And its Max Value is: 100
+Index: 4 Name: Arms Lore Is: True And its Max Value is: 100
+Index: 5 Name: Parrying Is: True And its Max Value is: 100
+Index: 6 Name: Begging Is: True And its Max Value is: 100
+Index: 7 Name: Blacksmithy Is: True And its Max Value is: 100
+Index: 8 Name: Bowcraft/Fletching Is: True And its Max Value is: 100
+Index: 9 Name: Peacemaking Is: True And its Max Value is: 100
+Index: 10 Name: Camping Is: True And its Max Value is: 100
+Index: 11 Name: Carpentry Is: True And its Max Value is: 100
+Index: 12 Name: Cartography Is: True And its Max Value is: 100
+Index: 13 Name: Cooking Is: True And its Max Value is: 100
+Index: 14 Name: Detecting Hidden Is: True And its Max Value is: 100
+Index: 15 Name: Discordance Is: True And its Max Value is: 100
+Index: 16 Name: Evaluating Intelligence Is: True And its Max Value is: 100
+Index: 17 Name: Healing Is: True And its Max Value is: 100
+Index: 18 Name: Fishing Is: True And its Max Value is: 100
+Index: 19 Name: Forensic Evaluation Is: True And its Max Value is: 100
+Index: 20 Name: Herding Is: True And its Max Value is: 100
+Index: 21 Name: Hiding Is: True And its Max Value is: 100
+Index: 22 Name: Provocation Is: True And its Max Value is: 100
+Index: 23 Name: Inscription Is: True And its Max Value is: 100
+Index: 24 Name: Lockpicking Is: True And its Max Value is: 100
+Index: 25 Name: Magery Is: True And its Max Value is: 100
+Index: 26 Name: Resisting Spells Is: True And its Max Value is: 100
+Index: 27 Name: Tactics Is: True And its Max Value is: 100
+Index: 28 Name: Snooping Is: True And its Max Value is: 100
+Index: 29 Name: Musicianship Is: True And its Max Value is: 100
+Index: 30 Name: Poisoning Is: True And its Max Value is: 100
+Index: 31 Name: Archery Is: True And its Max Value is: 100
+Index: 32 Name: Spirit Speak Is: True And its Max Value is: 100
+Index: 33 Name: Stealing Is: True And its Max Value is: 100
+Index: 34 Name: Tailoring Is: True And its Max Value is: 100
+Index: 35 Name: Animal Taming Is: True And its Max Value is: 100
+Index: 36 Name: Taste Identification Is: True And its Max Value is: 100
+Index: 37 Name: Tinkering Is: True And its Max Value is: 100
+Index: 38 Name: Tracking Is: True And its Max Value is: 100
+Index: 39 Name: Veterinary Is: True And its Max Value is: 100
+Index: 40 Name: Swordsmanship Is: True And its Max Value is: 100
+Index: 41 Name: Mace Fighting Is: True And its Max Value is: 100
+Index: 42 Name: Fencing Is: True And its Max Value is: 100
+Index: 43 Name: Wrestling Is: True And its Max Value is: 100
+Index: 44 Name: Lumberjacking Is: True And its Max Value is: 100
+Index: 45 Name: Mining Is: True And its Max Value is: 100
+Index: 46 Name: Meditation Is: True And its Max Value is: 100
+Index: 47 Name: Stealth Is: True And its Max Value is: 100
+Index: 48 Name: Remove Trap Is: True And its Max Value is: 100
+Index: 49 Name: Necromancy Is: True And its Max Value is: 100
+Index: 50 Name: Focus Is: True And its Max Value is: 100
+Index: 51 Name: Chivalry Is: True And its Max Value is: 100
+Index: 52 Name: Bushido Is: True And its Max Value is: 100
+Index: 53 Name: Ninjitsu Is: True And its Max Value is: 100
+Index: 54 Name: Spellweaving Is: True And its Max Value is: 100
+Index: 55 Name: Mysticism Is: True And its Max Value is: 100
+Index: 56 Name: Imbuing Is: True And its Max Value is: 100
+Index: 57 Name: Throwing Is: True And its Max Value is: 100
+Name: Throwing Is: True And its Max Value is: 100
+

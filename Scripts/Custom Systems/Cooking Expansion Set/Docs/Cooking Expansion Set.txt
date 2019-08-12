@@ -1,0 +1,130 @@
+Cooking Expansion Set
+
+Version 11
+Fixed Basecreature to accept all new meats and gains and eggs.
+Added New Food Section in Basecreature for the Cooking Expansion Set Setup
+Updated BaseCrop to use DateTime.UtcNow instead of DateTime.Now
+Updated CropHelper to use DateTime.UtcNow instead of DateTime.Now
+Updated TreeHelper to use DateTime.UtcNow instead of DateTime.Now
+Updated all crops to use DateTime.UtcNow instead of DateTime.Now
+
+Version 10
+Added Stat and skill Boost to food.cs.
+Added Food stat and skill readme.
+Removed Foodeffects from Food.cs to stay with JustUo so no one has to edit it.
+Added Rotten Food to be random factor on foods.
+Renamed all Animals to Farm , Town , Wild infront of there file names so you will no longer have to replace your JustUo distro ones.
+Updated Ranch Installation Guide on new animals.
+
+Version 9.0
+Added Recipe Scrolls
+Changed skill value needed for cooking
+Fixed Hotdogs in cooking menu to need cauldron
+Added recipe tag to all the cooking menu.
+Added Harpy Eggs Item
+Changed Alcholice Drinks will make you thirsty as well get you drunk.
+Fixed Some Mobiles didn't have all there tags for mating.
+Cleaned Up BaseAnimal.cs
+Added Recipe Install Guide.
+Added bag of sugar to the cooking menu.
+
+Version 8.1
+Fixed carving on some animals so doesnt give unlimited resources.
+
+Version 8.0
+Updated Cooking Expansion Set Setup.
+Fixed Some Foods was missing Amount this should correct the graphics.
+Moved Raw meats into the Raw Food Folder.
+Fixed name on turkey items and duck items.
+Moved deer/sheep/goat skins to Ranch Folder under Animal Resources.
+Moved Cooking Utensils out of the food folder.
+Fixed some crops to grow only on some land tiles like they should.
+Added Pork To Cooking Menu :)
+
+Version 7.0
+Fixed all the warnings but maybe one or two.
+Cleaned up DefCooking some more.
+Moved ContainerFood.cs to be with Food.cs as it is a base
+
+Version 6.0
+Split more crops up into seed, seedlings, crop instead having all one file.
+Fixed Ranch Installation Instructions thanks to Fenris.
+Fixed Cooking set up Guide thanks to Fenris.
+Added Steam Powered Beverage Maker Needed to create Coffee, Cocoa, Tea and Cider.
+Updated Cooking Set up Guide with new Steam Powered Beverage Maker.
+Added Grinder to Gind up Coffee Beans and Cocoa Beans to make Bag of Coffee and Bag of Cocoa both are required in making coffee and cocoa kegs.
+Fixed some skill check on hops was way to high.
+Removed Double food items.
+Renamed Cookedduck to RoastDuck
+Renamed CookedChicken to Roast Chicken.
+Added Turkey Leg, Raw Turkey Leg, Roast Turkey, Raw Turkey, Turkey Platter
+Working ON redoing Cooking menu though Releases.
+Added Turkey, Chicken, Duck to Carve in Basecreature check Docs
+Added Vanilla Crop
+Added Real Working Fireplaces Require wood and Match to light
+Added MatchLight item for fireplaces.
+
+Version 5.0
+Added Chefs Outfit Set
+Added Distillery You will have to check docs as it will need added to your craftitem.cs and craftsystem.cs
+Changed witchcraft tool to book instead of cualdon so its Witch's Book Of Food Crafts
+Changed Defwitchcraft to Use cualdron for heat source
+Fixed Cauldrons to not crash in craftitem.cs had bad id replaced with right item ids.
+
+Version 4.0
+Added Ranch System with new AI
+Added Garden by DarkJustin
+Added SeedBox For OSI Plant Seeds
+Added Farmers Seed Box for all the Harvestable Plant Seeds Version 1
+Added Korbas's wild crop system
+Added Crow npc
+Added Scarecrow
+Added Beer Brewing Version 1
+Cleaned up some code.
+Started to Move files around to better sort them.
+
+Version 3.0
+
+Added WaxCrafting by Manu
+Added Cyberspud Apicultre System
+Left old Apicultre System in just turned off.
+Removed Defgrilling.cs no longer needed
+Moved some menus around in defcooking.cs
+
+Version 2.0
+
+Removed some container foods that had modded client files being used to see them.
+Removed decofoods.cs because used modded client files
+Changed the name on Meats folder to Protein Foods
+Added Oils Folder
+Added Beans and Peas folder inside the Protein Foods
+Added Eggs folder inside the Protein Foods
+Added Meats folder inside the Protein Foods
+Added Nuts and Seeds inside the Protein Foods
+Added Seafood folder inside the Protein Foods
+
+Added Folders inside the Meats folder 
+Game Meats/Lean Ground Meats/Organ Meats
+
+Added Folders inside the Nuts and Seeds Folder
+Almonds/Cashews/Hazelnuts/Mixed Nuts/Peanuts/Pecans
+Pistachios/Pumpkin Seeds/Sesame Seeds/Sunflower Seeds/Walnuts
+
+Added Folders inside the SeaFood Folder
+Canned Fish/Finfish/Shellfish
+
+Moved sunflower seeds to the nuts and seeds folder
+Added CookedDuck.cs
+Added DuckLeg.cs
+Added FriedChickenEggs.cs
+Added FriedDuckEggs.cs
+Removed cookablefood2.cs
+Added new Food tag this.Raw = true;
+Made all raw food have new raw tag and they can be eaten but watch out hehe.
+Added Cauldron to Craft System so can be used as a cooking tool like ovens and fireplaces.
+Redid some Cooking menus Just the Start.
+Added Rawchicken.cs
+Added CookedChicken.cs
+
+
+
