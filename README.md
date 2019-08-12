@@ -1,5 +1,5 @@
 # Ultima Iberia Server
- Ultima Iberia ServUO
+ Ultima Iberia using ServUO
 
 First of all i want to thank all the scripts uploaded for the community without
 them i can't do that frankestein server.
