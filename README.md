@@ -12,7 +12,7 @@ Another problem i remember its, all players appear like elves (i dont remember w
 
 FILES:
 ---------------------------------------
-Client: [URL unfurl="true"]https://drive.google.com/open?id=1_28gzP85gtPmQe2jWewjsxYGd0Mmk_xQ[/URL]
+Client: https://drive.google.com/open?id=1_28gzP85gtPmQe2jWewjsxYGd0Mmk_xQ
 
 
 
