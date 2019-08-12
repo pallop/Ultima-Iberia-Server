@@ -14,7 +14,7 @@ FILES:
 ---------------------------------------
 Client: https://drive.google.com/open?id=1_28gzP85gtPmQe2jWewjsxYGd0Mmk_xQ
 
-ADMIN ACCOUNT:
+OWNER ACCOUNT:
 ---------------------------------------
 * User: admin
 * Pass: admin
