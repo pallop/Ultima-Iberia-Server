@@ -15,68 +15,65 @@ FILES:
 Client: https://drive.google.com/open?id=1_28gzP85gtPmQe2jWewjsxYGd0Mmk_xQ
 
 
-
 Description of the server:
 ---------------------------------------
-Custom Map of  Iberian Peninsula (initialy 100% from me, and when I get tired of doing everything i start to use community buildings)
-Custom Modify of the Client HUID (by me too)
-Community item images inside client
-
+· Custom Map of  Iberian Peninsula (initialy 100% from me, and when I get tired of doing everything i start to use community buildings)
+· Custom Modify of the Client HUID (by me too)
+· Community item images inside client
 
 
 
 Custom Scripts from the Community:
 ---------------------------------------
 
-Account Deposit Box 1.2
-Camps with treasures
-Captcha
-Cooking Expansion Set (have problem with some hiding animals, and the ranchs).
-Custom Regions in a Box V.5.0
-Food Effects
-FS - Systems
-Custom Guards for cities in the server
-Guards
-Hair Growth with Facial Hair Growth
-Invasion System
-Loockpicable Doors 0.7
-Lokai Skills Systems (modified for custom housing wall by wall)
-Loot System
-Dungs
-OrbRemoteServer
-OWLTR 3.01
-Pirates
-Player Government System 2.23 (with Custom Walls for player raids (Major can build wher he wants inside city with custom tool for placement), and City Barracks)
-Race Class System
-SleepableBeds
-Stargate System v3
-Hunger System
-Town Houses v.2.01
-TrapCrafting
-VIP System
-Yard and Garden System
-Random Animal Spawner (with animals of the Cooking Expansion Set)
-Copy Statics
-GM Tool
-AFK
-Age System
-Boat Control
-ChangeSeason
-Completely Customizable Vendor
-Control NPC
-Emote
-Global Chat
-ACC
-PermaDeath
-Ultima Live
-XmlSpawner 2
+* Account Deposit Box 1.2
+* Camps with treasures
+* Captcha
+* Cooking Expansion Set (have problem with some hiding animals, and the ranchs).
+* Custom Regions in a Box V.5.0
+* Food Effects
+* FS - Systems
+* Custom Guards for cities in the server
+* Guards
+* Hair Growth with Facial Hair Growth
+* Invasion System
+* Loockpicable Doors 0.7
+* Lokai Skills Systems (modified for custom housing wall by wall)
+* Loot System
+* Dungs
+* OrbRemoteServer
+* OWLTR 3.01
+* Pirates
+* Player Government System 2.23 (with Custom Walls for player raids (Major can build wher he wants inside city with custom tool for · placement), and City Barracks)
+* Race Class System
+* SleepableBeds
+* Stargate System v3
+* Hunger System
+* Town Houses v.2.01
+* TrapCrafting
+* VIP System
+* Yard and Garden System
+* Random Animal Spawner (with animals of the Cooking Expansion Set)
+* Copy Statics
+* GM Tool
+* AFK
+* Age System
+* Boat Control
+* ChangeSeason
+* Completely Customizable Vendor
+* Control NPC
+* Emote
+* Global Chat
+* ACC
+* PermaDeath
+* Ultima Live
+* XmlSpawner 2
 
 
 ---------------------------------------
 
-All I ask is that if some of you are going to use it,  let me know so enjoy it as a player :p .
-
-And if you are going to modify something, share it with me also, please ^^.
+* All I ask is that if some of you are going to use it,  let me know so enjoy it as a player :p.
+* And if you are going to modify something, share it with me also, please ^^.
 
 
 
