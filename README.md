@@ -5,7 +5,7 @@ First of all i want to thank all the scripts uploaded for the community without
 them i can't do that frankestein server.
 
 I dont script nothing from scratch, all its a compiling of another scripts from the community, and modify by me and friends.
-This server have problems in some parts, but how i dont know program i cant solve it. Its thinked for a huge roleplay community of players and never used in more of 12 players.
+This server have problems in some parts, but how i dont know how script it, i cant solve it. Its thinked for a huge roleplay community of players and never used in more of 12 players.
 
 Another problem i remember its, all players appear like elves (i dont remember what i touch xD)
 
